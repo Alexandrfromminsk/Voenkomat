@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Voenkomat</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="intro_text"> Дата окончания призыва:</string>
+    <string name="option_text">Отметьте дополнительные опции</string>
+    <string name="cb1">Получил открытку</string>
+    <string name="cb2">Звонили по телефону</string>
+    <string name="cb3">Прислали на работу</string>
+    <string name="cb4">Расписался в повестке</string>
+    <string name="btn_name">Рассчитать</string>
+    <string name="output">Осталось: %1$d дней, %2$d часов, %3$d минут и %4$d секунд</string>
+</resources>
