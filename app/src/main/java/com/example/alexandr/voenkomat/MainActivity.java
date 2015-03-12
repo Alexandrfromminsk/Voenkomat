@@ -43,8 +43,12 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
 
         calEnd = Calendar.getInstance(tz);
         calEnd.set(2015, Calendar.JUNE, 1);
+        calEnd.set(Calendar.HOUR_OF_DAY,0);
+        calEnd.set(Calendar.MINUTE,0);
+        calEnd.set(Calendar.SECOND,0);
+        calEnd.set(Calendar.MILLISECOND,0);
 
-        sdf = new SimpleDateFormat("d.MMMM.yyyy",myLocale);
+        sdf = new SimpleDateFormat("d MMMM yyyy",myLocale);
         endDate = sdf.format(calEnd.getTime());
         end = calEnd.getTimeInMillis();
 
